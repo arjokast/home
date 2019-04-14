@@ -1,3 +1,9 @@
 arjokast
 arjomachine@gmail.com
 alseenmachinerepsforjesus
+
+Credential manager:
+remove git things
+
+Build to pages
+ng build --prod --output-path docs --base-href water

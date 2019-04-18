@@ -31,11 +31,7 @@ export class HomeComponent implements OnInit {
       .duration(2000)
       .style("opacity", 1);
 
-
-      // 
-
       // .attr("color", "blue")
-     
       // .attr("color", "red");
 
       // <h1 id="bro">

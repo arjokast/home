@@ -1,0 +1,49 @@
+<!--Navbar-->
+<mdb-navbar class="header" SideClass="navbar navbar-expand-md navbar-dark default-color" [containerInside]="false">
+
+  <!-- Navbar icon -->
+    <mdb-icon fas icon="dumbbell" style="color:white"></mdb-icon>
+    <!-- <img id="Logo" src="./assets/img/Dumbbell.png" class="rounded float-left" alt="Responsive image"> -->
+
+  <links>
+    <!-- Links left side -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          1st
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          2nd
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>
+          Etics
+        </a>
+      </li>
+    </ul>
+
+    <!-- Links right side -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="archive"></mdb-icon>Archive<span class="caret"></span>
+        </a>
+        <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Legacy scheme "April 2019"</a>
+        </div>
+      </li>
+    </ul>
+
+  </links>
+
+</mdb-navbar>

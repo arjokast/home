@@ -1,0 +1,28 @@
+Overall:
+    - Add sources
+
+Homepage:
+    - Target audience
+    - Quote fader
+    - Goals
+    - Don't expect too much (pray to the iron god)
+
+FirstDaypage:
+    - Training scheme
+        
+SecondDaypage:
+    - Training scheme
+
+Eticspage:
+    kritische bezinning over het juiste handelen.
+    - Quotes:
+        - Father forgive me for the gains im about to receive
+    - Food:
+        - Eat more
+        - Eat protein
+        - Eat low glycemic
+        - Eat healthier
+
+Archivepage:
+    
+

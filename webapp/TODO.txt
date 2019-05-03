@@ -1,0 +1,15 @@
+DONE -> Homepage: Quote fader
+Homepage: Target audience
+Homepage: Goals
+Homepage: Don't expect too much (pray to the iron god)
+Homepage: Food (Eat more, Eat protein, Eat low glycemic, Eat healthier)
+
+DONE -> Upperpage: Training scheme
+        
+DONE -> Lowerpage: Training scheme
+
+DONE -> Archivepage: Links to all the old schemes
+
+Add visualisations.
+    
+

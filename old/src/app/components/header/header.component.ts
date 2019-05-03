@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  classIsSet = false
+
+
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  toggleClass() {
+    this.classIsSet = !this.classIsSet;
   }
 
 }

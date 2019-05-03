@@ -1,49 +1,47 @@
 <!--Navbar-->
-<mdb-navbar class="header" SideClass="navbar navbar-expand-md navbar-dark default-color" [containerInside]="false">
+<div id="header">
+  <mdb-navbar SideClass="navbar fixed-top navbar-expand-sm navbar-dark default-color" [containerInside]="false">
 
-  <!-- Navbar icon -->
-    <mdb-icon fas icon="dumbbell" style="color:white"></mdb-icon>
+    <!-- Navbar icon -->
+    <a class="navbar-brand" href="#!">
+      <mdb-icon id="dumbbell-icon" fas icon="dumbbell" class="img-fluid ml-2 mt-1" style="color:white"></mdb-icon>
+    </a>
+
     <!-- <img id="Logo" src="./assets/img/Dumbbell.png" class="rounded float-left" alt="Responsive image"> -->
 
-  <links>
-    <!-- Links left side -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          Home
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          1st
-        </a>
-      </li>
+    <links>
+      <!-- Links left side -->
+      <ul class="navbar-nav" routerLinkActive="active">
+        <li class="nav-item">
+          <a class="nav-link waves-light p-2 pl-3" mdbWavesEffect routerLink="/home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light p-2 pl-3" mdbWavesEffect routerLink="/upper">
+            Upper
+          </a>
+        </li>
 
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          2nd
-        </a>
-      </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light p-2 pl-3" mdbWavesEffect routerLink="/lower">
+            Lower
+          </a>
+        </li>
+      </ul>
 
-      <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>
-          Etics
-        </a>
-      </li>
-    </ul>
+      <!-- Links right side -->
+      <ul class="navbar-nav ml-auto mr-3">
+        <li class="nav-item">
+          <a class="nav-link waves-light p-2 pl-2" mdbWavesEffect routerLink="/archive">
+            <mdb-icon fas icon="archive"></mdb-icon>Archive
+            <!-- Legacy scheme "April 2019" -->
+          </a>
+        </li>
+      </ul>
 
-    <!-- Links right side -->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown" dropdown>
-        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-          <mdb-icon fas icon="archive"></mdb-icon>Archive<span class="caret"></span>
-        </a>
-        <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Legacy scheme "April 2019"</a>
-        </div>
-      </li>
-    </ul>
+    </links>
 
-  </links>
+  </mdb-navbar>
 
-</mdb-navbar>
+</div>

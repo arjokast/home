@@ -6,18 +6,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { FirstdayComponent } from './components/firstday/firstday.component';
-import { SeconddayComponent } from './components/secondday/secondday.component';
-import { EthicsComponent } from './components/ethics/ethics.component';
+import { ArchiveComponent } from './components/archive/archive.component';
+import { DayoneComponent } from './archive-components/dayone/dayone.component';
+import { DaytwoComponent } from './archive-components/daytwo/daytwo.component';
+import { UpperComponent } from './components/upper/upper.component';
+import { LowerComponent } from './components/lower/lower.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    FirstdayComponent,
-    SeconddayComponent,
-    EthicsComponent
+    ArchiveComponent,
+    DayoneComponent,
+    DaytwoComponent,
+    UpperComponent,
+    LowerComponent
   ],
   imports: [
     BrowserModule,

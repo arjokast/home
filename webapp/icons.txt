@@ -4,18 +4,15 @@ hand: <i class="fas fa-fist-raised"></i>
 dragon: <i class="fas fa-dragon"></i>
 apple: <i class="fas fa-apple-alt"></i>
 chicken: <i class="fas fa-drumstick-bite"></i>
+
 balance: <i class="fas fa-balance-scale"></i>
+
 bed: <i class="fas fa-bed"></i>
+
 battery empty: <i class="fas fa-battery-empty"></i>
 battery half: <i class="fas fa-battery-half"></i>
 battery full: <i class="fas fa-battery-full"></i>
+
 award: <i class="fas fa-award"></i>
+users: <i class="fas fa-users"></i>
 progress: <i class="fas fa-chart-line"></i>
-coffee: <i class="fas fa-coffee"></i>
-bike: <i class="fas fa-bicycle"></i>
-gem: <i class="fas fa-gem"></i>
-key: <i class="fas fa-key"></i>
-weight: <i class="fas fa-weight"></i>
-eating: <i class="fas fa-utensils"></i>
-study: <i class="fas fa-university"></i>
-mask: <i class="fas fa-mask"></i>

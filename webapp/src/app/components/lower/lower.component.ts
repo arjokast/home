@@ -12,4 +12,9 @@ export class LowerComponent implements OnInit {
   ngOnInit() {
   }
 
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+    window.scrollBy(0, -80);
+  }
+
 }

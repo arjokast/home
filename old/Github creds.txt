@@ -6,4 +6,4 @@ Credential manager:
 remove git things
 
 Build to pages
-ng build --prod --output-path docs
+ng build --prod --output-path docs --base-href scheme

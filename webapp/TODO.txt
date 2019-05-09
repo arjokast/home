@@ -1,6 +1,6 @@
 DONE -> Homepage: Quote fader
-Homepage: Target audience
-Homepage: Goals 
+DONE -> Homepage: Target audience
+DONE -> Homepage: Goals 
     (Don't expect too much (pray to the iron god))
 
 DONE -> Upperpage: Training scheme
@@ -9,9 +9,14 @@ DONE -> Upperpage: Table with checks
 DONE -> Lowerpage: Training scheme
 DONE -> Lowerpage: Table with checks
 
-Foodpage (Eat more, Eat protein, Eat low glycemic, Eat healthier)
-
 DONE -> Archivepage: Links to all the old schemes
+
+DONE -> Icons lower table fixen
+DONE -> FlyCross voluit
+DONE -> Lower checkboxes bug fix
+Mobile, niet scrollbaar naar links/rechts (iets minder breed?)
+
+VisualisationsPage: Learn more through visualizations.
 
 Add visualisations.
     
